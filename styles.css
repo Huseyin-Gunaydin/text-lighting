@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(50, 49, 49);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+section span {
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 40px;
+  font-weight: bold;
+  animation-name: lighting;
+  animation: infinite;
+  animation-duration: 1.2s;
+}
+
+.eins {
+  animation-name: lighting;
+}
+
+.zwei {
+  animation-name: lighting;
+  animation-delay: 0.15s;
+}
+
+.drei {
+  animation-name: lighting;
+  animation-delay: 0.3s;
+}
+
+.vier {
+  animation-name: lighting;
+  animation-delay: 0.45s;
+}
+
+.fünf {
+  animation-name: lighting;
+  animation-delay: 0.6s;
+}
+
+.sechs {
+  animation-name: lighting;
+  animation-delay: 0.75s;
+}
+.sieben {
+  animation-name: lighting;
+  animation-delay: 0.9s;
+}
+.acht {
+  animation-name: lighting;
+  animation-delay: 1.05s;
+}
+
+@keyframes lighting {
+  from {
+    color: yellow;
+    text-shadow: 2px 2px 20px yellow;
+  }
+  to {
+    color: rgb(194, 194, 186);
+  }
+}
