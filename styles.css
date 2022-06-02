@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(50, 49, 49);
+  background-color: #262626;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,59 +7,66 @@ body {
   text-align: center;
 }
 section span {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   font-size: 4rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: #464545;
   letter-spacing: 40px;
   font-weight: bold;
   animation-name: lighting;
   animation: infinite;
-  animation-duration: 1.2s;
+  animation-duration: 0.8s;
 }
 
 .eins {
   animation-name: lighting;
+  animation-delay: 0s;
 }
 
 .zwei {
   animation-name: lighting;
-  animation-delay: 0.15s;
+  animation-delay: 0.1s;
 }
 
 .drei {
   animation-name: lighting;
-  animation-delay: 0.3s;
+  animation-delay: 0.2s;
 }
 
 .vier {
   animation-name: lighting;
-  animation-delay: 0.45s;
+  animation-delay: 0.3s;
 }
 
 .fünf {
   animation-name: lighting;
-  animation-delay: 0.6s;
+  animation-delay: 0.4s;
 }
 
 .sechs {
   animation-name: lighting;
-  animation-delay: 0.75s;
+  animation-delay: 0.5s;
 }
 .sieben {
   animation-name: lighting;
-  animation-delay: 0.9s;
+  animation-delay: 0.6s;
 }
 .acht {
   animation-name: lighting;
-  animation-delay: 1.05s;
+  animation-delay: 0.7s;
 }
 
 @keyframes lighting {
-  from {
-    color: yellow;
-    text-shadow: 2px 2px 20px yellow;
+  0% {
+    color: #464545;
+    text-shadow: none;
   }
-  to {
-    color: rgb(194, 194, 186);
+  80% {
+    color: #464545;
+    text-shadow: none;
+  }
+
+  100% {
+    color: yellow;
+    text-shadow: 0px 0px 25px yellow;
   }
 }
